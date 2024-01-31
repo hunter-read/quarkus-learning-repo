@@ -1,1 +1,9 @@
-quarkus.rest.jsonb.always-serialize-arrays=true
+quarkus:
+  log:
+    category:
+      "io.quarkus":
+        level: WARNING
+      "org.acme":
+        level: INFO
+  banner:
+    enabled: false
